@@ -24,5 +24,6 @@ void loop()
   for (int i = 0; i < 10000; i++)
   {
     sevseg.setNumber(i);
+    sevseg.refreshDisplay();
   }
 }
